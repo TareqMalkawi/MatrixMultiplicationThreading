@@ -7,9 +7,9 @@ There are two versions (source code)
 2. ThreadSafe, create a crtical section using mutex when needed, therefore, no form of race condition will occur. 
 
 Note : the code was compiled with the following command using C++ compiler:
+
 g++ -std=c++11 ThreadSafe.cpp -lpthread -o t
 
 and to pass the number of threads use ./t
 
 
-![08](https://user-images.githubusercontent.com/91283864/214875059-4aa985b7-80c6-4640-8de2-1c36a5af81c5.png)
