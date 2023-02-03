@@ -1,4 +1,4 @@
-Threading in C/C++ to do the Matrix Multiplication Problem using pthread library on Linux.
+Threading in C++ to do the Matrix Multiplication Problem using pthread library on Linux.
 
 The program creates T worker threads to perform the operation (T will be passed to the program with the Linux command line). Where each of the threads
 will perform part of the total matrix multiplication operation. 
